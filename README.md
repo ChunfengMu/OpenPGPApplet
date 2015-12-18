@@ -22,7 +22,8 @@ Using [JCIDE](http://javacardos.com/javacardforum/viewtopic.php?f=26&t=43) open 
 
 Installing Applet to Java Card.
 --------------------------
-1, Generally, you can using JCIDE to debug/run this project directly
+1, Generally, you can using JCIDE to debug/run this project directly.
+
 2, You can also use [pyApduTool](http://javacardos.com/javacardforum/viewtopic.php?f=3&t=38) to Download this CAP file to card and install, select the applet, send APDU to card. 
 
 You can visit "http://javacardos.com/javacardforum/viewforum.php?f=34" to get more informations.
