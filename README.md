@@ -15,7 +15,7 @@ license.  See the file LICENSE for more information.
 
 == Building
 
-Using JCIDE open this project,  Click "Buid All Packages(F7)" to build the source code and click "Debug" or "Run" you can Debug/run this project using Java Card Simulator. doc/InstallCAPFile.txt on how to install it.
+Using [JCIDE](http://javacardos.com/javacardforum/viewtopic.php?f=26&t=43) open this project,  Click "Buid All Packages(F7)" to build the source code and click "Debug" or "Run" you can Debug/run this project using Java Card Simulator. doc/InstallCAPFile.txt on how to install it.
 
 
 == Usage
@@ -23,6 +23,6 @@ Using JCIDE open this project,  Click "Buid All Packages(F7)" to build the sourc
 Installing Applet to Java Card.
 --------------------------
 1, Generally, you can using JCIDE to debug/run this project directly
-2, You can also use pyApduTool to Download this CAP file to card and install, select the applet, send APDU to card. 
+2, You can also use [pyApduTool](http://javacardos.com/javacardforum/viewtopic.php?f=3&t=38) to Download this CAP file to card and install, select the applet, send APDU to card. 
 
 You can visit "http://javacardos.com/javacardforum/viewforum.php?f=34" to get more informations.
