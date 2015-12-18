@@ -23,7 +23,7 @@ license.  See the file LICENSE for more information.
 ===
 
 There are several ways to build the project:
-1) With  [JCIDE](http://javacardos.com/javacardforum/viewtopic.php?f=26&t=43) open this project,  Click "Buid All Packages(F7)" to build the source code and click "Debug" or "Run" you can Debug/run this project using Java Card Simulator. 
+1) With  [JCIDE](http://javacardos.com/javacardforum/viewtopic.php?f=26&t=43) open this project,  Click "Buid All Packages(F7)" to build the source code. 
 2) With Eclipse and eclipse-jcde.
 3) ......
 
