@@ -1,10 +1,10 @@
 ## OpenPGP Applet
 
 ====
-This project implement the OpenPGP card functionality can used on the A40CR Card that is sold by [JavaCardOS](http://www.javacardos.com)
+This project implement the OpenPGP card functionality can used on the A40CR Card that is sold by [JavaCardOS](http://www.javacardos.com).
 
 ====
-You can also get information from [Sourceforge](https://sourceforge.net/projects/openpgp/)
+You can also get information from [Sourceforge](https://sourceforge.net/projects/openpgp/).
 
 === License
 
