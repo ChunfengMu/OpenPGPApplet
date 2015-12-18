@@ -12,12 +12,12 @@ the same license.  All of our changes are released under the same
 license.  See the file LICENSE for more information.
 
 
-=== Building
+== Building
 
 Using JCIDE open this project,  Click "Buid All Packages(F7)" to build the source code and click "Debug" or "Run" you can Debug/run this project using Java Card Simulator. doc/InstallCAPFile.txt on how to install it.
 
 
-=== Usage
+== Usage
 
 Installing Applet to Java Card.
 --------------------------
