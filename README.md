@@ -5,6 +5,7 @@ This project implement the OpenPGP card functionality can used on the A40CR Card
 
 ====
 You can also get information from [Sourceforge](https://sourceforge.net/projects/openpgp/)
+
 === License
 
 The upstream project was released under the GPLv2+ and our fork uses
