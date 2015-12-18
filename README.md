@@ -37,4 +37,7 @@ Installing Applet to Java Card.
 
 2, You can also use [pyApduTool](http://javacardos.com/javacardforum/viewtopic.php?f=3&t=38) to Download this CAP file to card and install, select the applet, send APDU to card. 
 
-You can visit "http://javacardos.com/javacardforum/viewforum.php?f=34" to get more informations.
+Discussion
+===
+Have doubts? You can visit [Here](http://javacardos.com/javacardforum/viewforum.php?f=34) to ask and discuss.
+
