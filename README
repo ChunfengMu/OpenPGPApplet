@@ -1,21 +1,11 @@
-== YubiKey NEO App: OpenPGP
+== OpenPGP Applet
 
 [IMPORTANT]
 ====
-Yubico has learned of a security issue with the OpenPGP Card applet project that is used in the YubiKey NEO. This vulnerability applies to you only if you are using OpenPGP, and you have the OpenPGP applet version 1.0.9 or earlier.
-link:https://developers.yubico.com/ykneo-openpgp/SecurityAdvisory%202015-04-14.html[SecurityAdvisory 2015-04-14]
+This project implement the OpenPGP card functionality can used on the A40CR Card that is sold by link:http://www.javacardos.com[JavaCardOS]
 ====
 
-This project implement the OpenPGP card functionality used on the
-YubiKey NEO device that is sold by Yubico.
-
-This project is based on the 
-http://sourceforge.net/p/javacardopenpgp/[Java Card OpenPGP Card]
-project made by Joeri de Ruiter. 
-The initial modifications we have made compared to
-the upstream project are minor, but we reserve the right to make other
-changes and improvements that are specific to the YubiKey NEO
-hardware.
+This project is based on the http://sourceforge.net/p/javacardopenpgp/[Java Card OpenPGP Card] project made by Joeri de Ruiter. 
 
 === License
 
@@ -26,15 +16,14 @@ license.  See the file LICENSE for more information.
 
 === Building
 
-See doc/Building.txt for information on how to build the source code
-and doc/InstallCAPFile.txt on how to install it.
+Using JCIDE open this project,  Click "Buid All Packages(F7)" to build the source code and click "Debug" or "Run" you can Debug/run this project using Java Card Simulator. doc/InstallCAPFile.txt on how to install it.
 
 
 === Usage
 
-The OpenPGP Card applet is typically used through http://www.gnupg.org[GnuPG]
-so we refer to its documentation for the full reference.
+Installing Applet to Java Card.
+--------------------------
+1, Generally, you can using JCIDE to debug/run this project directly
+2, You can also use pyApduTool to Download this CAP file to card and install, select the applet, send APDU to card. 
 
-We have tutorials on specific topics in at
-https://developers.yubico.com/PGP[developers.yubico.com/PGP], for example card
-editing and key import.
+You can visit "http://javacardos.com/javacardforum/viewforum.php?f=34" to get more informations.
