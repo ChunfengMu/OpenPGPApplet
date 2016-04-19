@@ -619,7 +619,7 @@ public class OpenPGPApplet extends Applet implements ISO7816 {
 	 * @return Length of data written in buffer
 	 */
 	private short computeDigitalSignature(APDU apdu) {
-		if (!(pw1.isValidated() && pw1_modes[PW1_MODE_NO81]))
+		if (!(pw1.isValidated() || !pw1_modes[PW1_MODE_NO81]))
 			ISOException.throwIt(SW_SECURITY_STATUS_NOT_SATISFIED);
 
 		if (pw1_status == (byte) 0x00)
